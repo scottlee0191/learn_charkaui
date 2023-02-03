@@ -47,7 +47,7 @@ const theme = extendTheme({
         components: {
             Button: {
                 variants: {
-                    primary: (props:any) => ({
+                    primary: (props: any) => ({
                         rounded: 'none',
                         backgroundColor: mode('brand.500', 'brand.200')(props),
                         _focus: {
